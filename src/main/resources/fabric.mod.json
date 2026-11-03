@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "soxmodhack",
+  "version": "${version}",
+  "name": "soxmodhack",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/soxmodhack/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "resting_sox.soxmodhack.Main"
+    ]
+  },
+  "mixins": [
+    "soxmodhack.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~26.2",
+    "fabric-api": "*"
+  }
+}
