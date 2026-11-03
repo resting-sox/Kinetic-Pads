@@ -35,9 +35,9 @@ public class KineticPadBlock extends Block {
 
             // Smoke particles
             serverLevel.sendParticles(
-                    ParticleTypes.LARGE_SMOKE,
+                    ParticleTypes.WHITE_SMOKE,
                     pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5,
-                    15, 0.3, 0.1, 0.3, 0.02
+                    30, 0.3, 0.1, 0.3, 0.02
             );
 
             // Sound (null = audible to everyone nearby)
