@@ -2,8 +2,8 @@ package resting_sox.soxmodhack.block;
 
 public enum PadTier {
 
-    SOFT ("kinetic_pad_soft",   0.6,    60,     5),
-    NORMAL ("kinetic_pad,"  ,   1.2,    100,    8),
+    SOFT ("kinetic_pad_soft",   0.9,    80,     5),
+    NORMAL ("kinetic_pad"  ,   1.4,    120,    8),
     HARD ("kinetic_pad_hard",   2.0,    160,    14);
 
     private final String id;
