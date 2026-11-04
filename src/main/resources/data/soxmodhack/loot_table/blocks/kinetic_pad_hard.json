@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "soxmodhack:kinetic_pad_hard" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }]
+}

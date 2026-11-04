@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/cube_all", "textures": { "all": "soxmodhack:block/kinetic_pad_soft" } }
