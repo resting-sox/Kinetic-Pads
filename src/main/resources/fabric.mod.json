@@ -2,21 +2,19 @@
   "schemaVersion": 1,
   "id": "soxmodhack",
   "version": "${version}",
-  "name": "soxmodhack",
-  "description": "",
-  "authors": [],
+  "name": "Kinetic Pads",
+  "description": "The Mod adds 3 Kinetic Pads/Launch pads that launch the player into the air. There is fall damage protection incase it is survival mode.",
+  "authors": [
+    "Resting Sox"
+  ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/soxmodhack/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "resting_sox.soxmodhack.Main"
     ]
   },
-  "mixins": [
-    "soxmodhack.mixins.json"
-  ],
   "depends": {
     "minecraft": "~26.2",
     "fabric-api": "*"

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "MMM",
+    "WMW",
+    "RRR"
+  ],
+  "key": {
+    "M": "minecraft:diamond",
+    "W": "minecraft:wind_charge",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "soxmodhack:kinetic_pad_hard",
+    "count": 2
+  }
+}
